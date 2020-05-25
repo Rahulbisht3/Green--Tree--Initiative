@@ -1,0 +1,1240 @@
+/* Donation page styling starts from line no- 797 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global */
+header,
+div.wrapper,
+section.sec-take-action,
+section.what-we-do {
+  padding: 0 9%;
+}
+:root {
+  font-size: 16px;
+}
+
+/* Header section / Nav section */
+header nav {
+  /* height: 6.25vh; */
+  height: 128px;
+  display: grid;
+  grid-template-columns: 25% 50% 15%;
+  column-gap: 5%;
+  align-content: center;
+}
+
+.title {
+  color: #354463;
+}
+.nav-middle {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 5%;
+  align-items: end;
+  color: #354463;
+  justify-items: center;
+}
+.nav-middle div h2 {
+  font-size: 1rem;
+}
+
+.nav3 {
+  /* justify-self: center; */
+}
+
+.nav-last {
+  justify-self: end;
+  align-self: end;
+}
+.donate-today {
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  color: #354463;
+  border-radius: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #c1f7d5;
+  font-weight: bold;
+}
+
+/* section The issue */
+div.wrapper {
+  display: grid;
+  grid-template-columns: 50% 30%;
+  column-gap: 10%;
+  background-image: url("/css/img/annie-spratt-135307-unsplash.png");
+  background-position: center;
+  background-size: cover;
+  height: 672px;
+}
+
+div.issue {
+  height: 400px;
+  margin: 8vw 0;
+  padding: 76px 64px;
+  background-color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+}
+
+div.issue h1 {
+  font-size: 3.2vw;
+  color: #354463;
+}
+
+div.issue p {
+  margin-top: 40px;
+  font-size: 1rem;
+  letter-spacing: -0.16px;
+  color: #354463;
+}
+
+div.issue button {
+  border: none;
+  background: #354463 0% 0% no-repeat padding-box;
+  font-size: 0.9rem;
+  width: 160px;
+  height: 40px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: -95px;
+}
+
+aside {
+  height: 224px;
+  margin-top: 8vw;
+  color: #ffffff;
+}
+
+aside h1 {
+  font-size: 5.1vw;
+}
+
+/* section take action */
+.sec-take-action {
+  height: 240px;
+  background-color: #c1f7d5;
+  display: grid;
+  grid-template-rows: 15% 85%;
+}
+
+.take-action {
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  column-gap: 4%;
+}
+.box {
+  color: #354463;
+}
+.btn {
+  height: 40px;
+  width: 160px;
+  background-color: #354463;
+  color: #ffffff;
+  font-size: 0.9rem;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 25vw;
+}
+/* Section what-we-do */
+section.what-we-do {
+  /* height: 160vh; */
+  height: 160vh;
+  background-color: #354463;
+}
+
+.what-we-do-btn {
+  margin-top: 7vh;
+  height: 40px;
+  width: 160px;
+  color: #354463;
+  font-size: 14px;
+}
+
+div.last2 p {
+  margin-top: 7vh;
+  font-size: 44px;
+  color: #ffffff;
+}
+
+div.last3 {
+  margin-top: 17vh;
+  display: flex;
+}
+
+.tree {
+  width: 26%;
+  height: 450px;
+  background-color: #ffffff;
+}
+
+.education {
+  margin-left: 8%;
+  width: 26%;
+  height: 450px;
+  background-color: #ffffff;
+}
+
+.advocary {
+  margin-left: 8%;
+  width: 26%;
+  height: 450px;
+  background-color: #ffffff;
+}
+
+.last3 img {
+  margin-top: -2vw;
+  margin-left: 2vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tree h1 {
+  margin-top: 3vh;
+  font-size: 2.1vw;
+  color: #354463;
+  padding: 0px 2vw;
+}
+.tree p {
+  margin-top: 3vh;
+  font-size: 16px;
+  color: #354463;
+  padding: 0px 2vw;
+}
+.education h1 {
+  margin-top: 3vh;
+  font-size: 2.1vw;
+  color: #354463;
+  padding: 0px 2vw;
+}
+.education p {
+  margin-top: 3vh;
+  font-size: 16px;
+  color: #354463;
+  padding: 0px 2vw;
+}
+
+.advocary h1 {
+  margin-top: 3vh;
+  font-size: 2.1vw;
+  color: #354463;
+  padding: 0px 2vw;
+}
+.advocary p {
+  margin-top: 3vh;
+  font-size: 16px;
+  color: #354463;
+  padding: 0px 2vw;
+}
+
+.div-read-more {
+  margin-top: 3vh;
+  padding: 0px 2vw;
+}
+button.Read-more {
+  border: none;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  padding: 0px 2vw;
+  height: 3rem;
+  width: 13vw;
+  color: #354463;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* media queries */
+
+@media (max-width: 1088px) {
+  .donate-today {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 974px) {
+  .nav-middle div h2 {
+    font-size: 0.8rem;
+  }
+  .donate-today {
+    font-size: 0.8rem;
+  }
+  div.issue {
+    padding: 30px 50px;
+  }
+  div.issue button {
+    width: 100px;
+    margin-top: -45px;
+  }
+
+  @media (max-width: 912px) {
+    .donate-today {
+      font-size: 0.7rem;
+    }
+  }
+  /* section what we do */
+  button.Read-more {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 812px) {
+  .donate-today {
+    font-size: 0.7rem;
+  }
+
+  /* section what we do */
+  button.Read-more {
+    /* font-size: 12px; */
+  }
+}
+
+@media (max-width: 768px) {
+  header nav {
+    grid-template-columns: 60% 40%;
+    column-gap: 0;
+  }
+
+  .nav-middle {
+    margin-top: 15px;
+    order: 1;
+    justify-items: start;
+  }
+  div.wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    /* grid-template-rows: 20% 40%; */
+    column-gap: 10%;
+    background-image: url("/css/img/annie-spratt-135307-unsplash.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 688px;
+    grid-template-rows: 30% 40%;
+    align-content: space-evenly;
+  }
+  div.issue {
+    /* height: 60vh; */
+    height: 309px;
+    width: 100%;
+    order: 1;
+    margin: 0;
+  }
+  div.issue h1 {
+    font-size: 5vw;
+    color: #354463;
+    font-weight: bold;
+  }
+  aside {
+    height: 18vw;
+    margin: 0;
+    width: 25vw;
+    margin-top: 9vw;
+  }
+  aside h1 {
+    font-size: 5vw;
+  }
+
+  /* section take action */
+  section.sec-take-action {
+    height: 336px;
+    background-color: #c1f7d5;
+    position: relative;
+    margin: 0;
+  }
+  .box p {
+    font-size: 3vw;
+  }
+
+  section div.take-action {
+    height: 300px;
+    display: block;
+  }
+  .box1 h1 {
+    /* margin-top: 10px; */
+  }
+  .box2 h1 {
+    /* margin-top: 10px; */
+  }
+  .box {
+    display: inline-block;
+    width: 45%;
+  }
+  .box2 {
+    margin-left: 5%;
+  }
+  .box4 {
+    margin-left: 5%;
+  }
+  .btn {
+    height: 40px;
+    width: 160px;
+    background-color: #354463;
+    color: #ffffff;
+    font-size: 0.9rem;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 25vw;
+  }
+
+  /* section what we do */
+
+  section.what-we-do {
+    height: 200vh;
+    background-color: #354463;
+  }
+  .what-we-do-btn {
+    margin-top: 7vh;
+    height: 40px;
+    width: 160px;
+    color: #354463;
+    font-size: 14px;
+  }
+
+  div.last2 p {
+    margin-top: 7vh;
+    font-size: 4.7vw;
+    color: #ffffff;
+  }
+
+  div.last3 {
+    margin-top: 17vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .last3 img {
+    max-width: 100%;
+  }
+
+  .tree {
+    display: grid;
+    width: 100%;
+    height: 280px;
+    background-color: #ffffff;
+    grid-template-areas:
+      "img div1"
+      "read-more-btn div1";
+    grid-template-rows: 60% 40%;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    padding: 0 5vw;
+  }
+
+  img.img1.image1 {
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+    justify-self: end;
+    margin-left: 0px;
+    grid-area: img;
+    height: 50vh;
+  }
+  .tree h1 {
+    grid-area: div1;
+    font-size: 22px;
+  }
+
+  .read-more-1 {
+    grid-area: read-more-btn;
+    justify-self: end;
+  }
+
+  .education {
+    display: grid;
+    width: 100%;
+    height: 280px;
+    background-color: #ffffff;
+    grid-template-areas:
+      "img1 div2"
+      "read-more-btn1 div2";
+    grid-template-rows: 60% 40%;
+    grid-template-columns: 40% 50%;
+    column-gap: 10%;
+    margin-left: 0;
+    margin-top: 4vh;
+    padding: 0 5vw;
+  }
+
+  img.img1.image2 {
+    height: 100%;
+    width: 100%;
+    justify-self: end;
+    margin-left: 0px;
+    grid-area: img1;
+    height: 50vh;
+  }
+  .education h1 {
+    grid-area: div2;
+    font-size: 22px;
+  }
+
+  .read-more-2 {
+    grid-area: read-more-btn1;
+    justify-self: end;
+  }
+  .advocary {
+    margin-top: 4vh;
+    margin-left: 0;
+    display: grid;
+    width: 100%;
+    height: 280px;
+    background-color: #ffffff;
+    grid-template-areas:
+      "img2 div3"
+      "read-more-btn2 div3";
+    grid-template-rows: 60% 40%;
+    grid-template-columns: 40% 50%;
+    column-gap: 10%;
+    padding: 0 5vw;
+  }
+
+  img.img1.image3 {
+    height: 100%;
+    width: 100%;
+    justify-self: end;
+    margin-left: -20px;
+    grid-area: img2;
+    height: 50vh;
+  }
+  .advocary h1 {
+    grid-area: div3;
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  .read-more-3 {
+    grid-area: read-more-btn2;
+    justify-self: end;
+  }
+
+  .div-read-more {
+    margin-top: 3vh;
+    padding: 0px 2vw;
+  }
+  button.Read-more {
+    border: none;
+    background: #c1f7d5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    padding: 0px 2vw;
+    height: 2.5rem;
+    width: 20vw;
+    color: #354463;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 614px) {
+  .nav-middle {
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    column-gap: 0%;
+  }
+  .title h1 {
+    font-size: 1.25rem;
+  }
+  .nav-middle div h2 {
+    font-size: 0.7rem;
+  }
+  .donate-today {
+    font-size: 0.8rem;
+  }
+  /* section the issue */
+  div.issue button {
+    width: 100px;
+    font-size: 0.7rem;
+  }
+
+  /* section what we do */
+  .tree h1,
+  .education h1,
+  .advocary h1 {
+    font-size: 20px;
+  }
+  .tree p,
+  .education p,
+  .advocary p {
+    font-size: 15px;
+  }
+  button.Read-more {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .title h1 {
+    font-size: 1rem;
+  }
+  .nav-middle {
+    display: grid;
+    grid-template-columns: 25% 35% 40%;
+    column-gap: 0%;
+  }
+  .title h1 {
+    font-size: 1.15rem;
+  }
+  .nav-middle div h2 {
+    font-size: 0.6rem;
+  }
+  .donate-today {
+    font-size: 0.6rem;
+  }
+
+  /* section the issue  */
+
+  div.wrapper {
+    /* height: 89vh; */
+    height: 630px;
+  }
+  div.issue {
+    height: 260px;
+    padding: 60px 19px;
+  }
+  div.issue button {
+    margin-top: -80px;
+    height: 40px;
+    width: 45vw;
+    margin-left: 10vw;
+  }
+  div.issue h1 {
+    font-size: 6vw;
+  }
+  div.issue p {
+    font-size: 4vw;
+    text-align: center;
+  }
+  aside {
+    height: 21vh;
+    width: 50vw;
+  }
+  aside h1 {
+    font-size: 10vw;
+  }
+
+  /* section what we do */
+
+  div.last2 p {
+    font-size: 20px;
+  }
+  .tree h1,
+  .education h1,
+  .advocary h1 {
+    margin-top: 8px;
+    font-size: 20px;
+  }
+
+  .tree p,
+  .education p,
+  .advocary p {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 376px) {
+  header nav {
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+      "title navbar"
+      "btn btn";
+    /* column-gap: 15%; */
+    grid-template-rows: 50% 40%;
+    row-gap: 10%;
+    height: 200px;
+  }
+
+  .nav-middle {
+    display: grid;
+    grid-template-columns: 100%;
+    order: 0;
+    justify-items: start;
+    grid-area: navbar;
+  }
+  .title {
+    grid-area: title;
+    align-self: center;
+  }
+  .nav-last {
+    grid-area: btn;
+    justify-self: start;
+    align-self: start;
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 1.2rem;
+  }
+  .nav-middle div h2 {
+    font-size: 0.8rem;
+  }
+  .donate-today {
+    width: 100%;
+    align-self: start;
+    font-size: 4.9vw;
+  }
+
+  /* section issue */
+  div.wrapper {
+    /* height: 89vh; */
+    height: 592px;
+  }
+  div.issue {
+    height: 240px;
+    padding: 60px 19px;
+  }
+  div.issue button {
+    margin-top: -80px;
+    height: 40px;
+    width: 45vw;
+    margin-left: 10vw;
+  }
+  div.issue h1 {
+    font-size: 6vw;
+  }
+  div.issue p {
+    font-size: 4vw;
+    text-align: center;
+  }
+  aside {
+    height: 21vh;
+    width: 50vw;
+  }
+  aside h1 {
+    font-size: 10vw;
+  }
+
+  /* section take action */
+  section.sec-take-action {
+    height: 328px;
+    background-color: #c1f7d5;
+    position: relative;
+  }
+  .take-action div {
+    /* margin-top: 6vh; */
+  }
+  .take-action div h1 {
+    /* margin-bottom: 2px; */
+    color: #354463;
+    font-size: 4.88vw;
+    /* font-size: 18px; */
+  }
+  .take-action div p {
+    color: #354463;
+    font-size: 4vw;
+    /* font-size: 14px; */
+    margin-top: 2px;
+  }
+  .btn {
+    margin-left: 15vw;
+    width: 44vw;
+  }
+
+  .box2,
+  .box4 {
+    margin-left: 5%;
+  }
+
+  /* section what we do */
+  section.what-we-do {
+    height: 250vh;
+    background-color: #354463;
+    display: grid;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .what-we-do-btn {
+    box-sizing: border-box;
+    height: 6vh;
+    width: 42.6vw;
+    font-size: 3.8vw;
+  }
+
+  div.last2 p {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 5.9vw;
+  }
+
+  div.last3 {
+    margin-top: 6vh;
+  }
+  .tree {
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    padding: 0 9.4vw;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .education {
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    padding: 0 9.4vw;
+    margin-top: 5vh;
+    align-items: center;
+  }
+  .advocary {
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    padding: 0 9.4vw;
+    margin-top: 5vh;
+    align-items: center;
+  }
+  .advocary img.img1.image3 {
+    margin-left: 0;
+  }
+  .tree h1,
+  .advocary h1,
+  .education h1 {
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 4.8vw;
+  }
+
+  .tree p,
+  .advocary p,
+  .education p {
+    font-size: 3.9vw;
+    text-align: center;
+    margin-top: 3vh;
+  }
+
+  button.Read-more {
+    margin-top: 3vh;
+    border: none;
+    background: #c1f7d5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    padding: 0px 2vw;
+    height: 5.99vh;
+    width: 38vw;
+    color: #354463;
+    font-weight: bold;
+    font-size: 4.3vw;
+  }
+  .last3 img {
+    max-height: 40%;
+    margin-top: -4vw;
+  }
+}
+
+/* Donation page */
+/* global */
+/* :root {
+  font-size: 60%;
+} */
+header.donation,
+section.wrapper,
+footer {
+  padding: 0px 11vw;
+}
+/* header */
+header.donation {
+  height: 120px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+header.donation h1 {
+  font-size: 28px;
+  color: #354463;
+}
+
+/* section Form */
+section.wrapper {
+  height: 70vw;
+  background-image: url("img/annie-spratt-135307-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 55% 30%;
+  column-gap: 15%;
+}
+
+.info {
+  background-color: #354463;
+  padding: 4vw 4.5vw;
+  height: 90%;
+  margin-top: 10%;
+  display: grid;
+  /* grid-template-rows: 33% 20% 10% 10%; */
+  row-gap: 0%;
+  align-content: space-around;
+}
+
+.about {
+  font-size: 1.95vw;
+  color: #ffffff;
+  margin: 0;
+}
+
+div.name {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 10%;
+}
+
+.data-p {
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+  /* font-size: 0.815vw; */
+  font-size: 0.985vw;
+  margin-top: 1.5vw;
+}
+
+hr {
+  margin-top: 0.5vw;
+  color: #c1f7d5;
+}
+
+.name,
+.credit {
+  margin-top: 2vh;
+}
+
+.name {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+
+.city-zip {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+
+.State {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+.expiration {
+  display: grid;
+  grid-template-columns: 45% 30%;
+  column-gap: 10%;
+}
+
+.inner-exp {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+
+.btn-links {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 5vw;
+  align-items: center;
+}
+
+.go-back-link {
+  color: #c1f7d5;
+}
+
+.btn-links button {
+  background-color: #c1f7d5;
+  width: 100%;
+  border: 0;
+  border-radius: 100px;
+  height: 5vw;
+  color: #354463;
+  font-weight: bold;
+}
+
+input {
+  display: inline;
+  width: 100%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background: #354463 0% 0% no-repeat padding-box;
+  font-size: 0.985vw;
+  color: #ffffff;
+}
+aside.donation-aside {
+  height: 40%;
+  margin-top: 20%;
+}
+
+aside.donation-aside div p {
+  font-family: "Homemade Apple", cursive;
+  font-size: 4.5vw;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* donation page footer */
+footer {
+  display: grid;
+  /* grid-template-columns: 35% 10% 10% 10% 30%; */
+  grid-template-columns: 20% 10% 10% 10% 20%;
+  grid-template-rows: 40%;
+  height: 371px;
+  align-content: center;
+  column-gap: 0;
+  justify-content: space-between;
+}
+
+.d-first {
+  margin-top: 12px;
+}
+.d-first h1 {
+  font-size: 1.6vw;
+  color: #354463;
+  margin-top: 2px;
+}
+
+footer p {
+  font-size: 1vw;
+  color: #354463;
+}
+
+.d-third p {
+}
+.d-third p {
+  font-size: 3vw;
+  text-align: end;
+}
+
+.footer-hr {
+  margin: 0.6vw 0;
+}
+
+div.box {
+  margin-top: 12px;
+}
+div.box1 {
+  margin-top: 12px;
+}
+div.box2 {
+  margin-top: 12px;
+}
+
+/* media queries donation page */
+
+@media (max-width: 768px) {
+  /* header */
+  header.donation h1 {
+    font-size: 3vw;
+    height: 122px;
+    display: grid;
+    align-items: center;
+  }
+  /* * section  wrapper */
+
+  section.wrapper {
+    height: 95vw;
+    height: 1196px;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 70%;
+    row-gap: 10%;
+  }
+
+  h1.about {
+    font-size: 4vw;
+  }
+  .data-p {
+    font-size: 2vw;
+    margin-top: 1.5vw;
+  }
+
+  input {
+    font-size: 2vw;
+  }
+
+  .info {
+    order: 1;
+  }
+  .donation-aside {
+    height: 20%;
+  }
+  .btn-links button {
+    font-size: 2vw;
+  }
+
+  /* footer */
+  footer {
+    display: grid;
+    height: 432px;
+    grid-template-areas:
+      "first box box1"
+      "none box2 third";
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 40% 40%;
+    align-items: start;
+    /* justify-items: start; */
+  }
+
+  hr.footer-hr {
+    display: none;
+  }
+
+  .d-first {
+    grid-area: first;
+    margin: 0;
+    align-self: start;
+  }
+  .box {
+    grid-area: box;
+  }
+  .box1 {
+    grid-area: box1;
+  }
+  .box2 {
+    grid-area: box2;
+  }
+
+  .d-first p {
+    margin-top: 0;
+  }
+  .d-third {
+    grid-area: third;
+    margin: 0;
+    display: block;
+    width: 150px;
+  }
+  .d-third p {
+    text-align: start;
+  }
+  .d-first h1 {
+    font-size: 3vw;
+    display: block;
+    width: 150px;
+  }
+  .d-third p {
+    display: block;
+    width: 150px;
+  }
+
+  .sp,
+  .fp {
+    font-size: 11px;
+  }
+  .d-first h1 {
+    padding-top: 8px;
+  }
+  .d-third p {
+    padding-top: 8px;
+  }
+  .box p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 550px) {
+  header.donation h1 {
+    font-size: 22px;
+  }
+  section.wrapper {
+    height: 900px;
+    grid-template-rows: 15% 70%;
+  }
+  .d-third p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 386px) {
+  /* header */
+
+  header.donation h1 {
+    font-size: 18px;
+    height: 80px;
+  }
+  /* footer */
+  footer {
+    display: grid;
+    height: 600px;
+    grid-template-areas:
+      "first box "
+      "box1 box2 "
+      "none third";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30% 30%;
+    align-items: start;
+  }
+
+  hr.footer-hr {
+    display: none;
+  }
+
+  .d-first {
+    grid-area: first;
+    margin: 0;
+    align-self: start;
+  }
+  .box {
+    grid-area: box;
+  }
+  .box1 {
+    grid-area: box1;
+  }
+  .box2 {
+    grid-area: box2;
+  }
+  .d-third {
+    grid-area: third;
+    margin: 0;
+    display: block;
+    width: 100px;
+  }
+  .d-first h1 {
+    font: Bold 22px/28px Helvetica;
+    margin-top: 40px;
+    display: block;
+    width: 100px;
+    font-size: 18px;
+  }
+  .d-third p {
+    margin-top: 30px;
+    display: block;
+    width: 100px;
+  }
+  .fp {
+    margin: 0;
+    margin-top: 40px;
+    display: block;
+    width: 100px;
+    height: 100%;
+    font: Regular 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+  }
+
+  .sp {
+    margin: 0;
+    display: block;
+    width: 100px;
+    height: 100%;
+    text-decoration: underline;
+    font: Light 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+  }
+  /* h1 {
+    font-size: 18px;
+  } */
+}
+
+/* global media */
+@media (min-height: 1366px) {
+  div.tree,
+  div.education,
+  div.advocary {
+    height: 540px;
+  }
+}
